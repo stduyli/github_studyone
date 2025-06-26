@@ -1,0 +1,57 @@
+{
+    "commentTranslate.hover.enabled": false,
+    // 自动保存
+    "files.autoSave": "afterDelay",
+    // 字号
+    "editor.fontSize": 16,
+    // 字体  中文  日本語　にほんご
+    "editor.fontFamily": "'JetBrains Mono NL','等线'",
+    // code snippet
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // 新开窗口
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": false,
+    // 文件夹紧凑模式显示
+    "explorer.compactFolders": false,
+    // 默认 lf 结尾
+    "files.eol": "\n",
+    // delete confirm
+    "explorer.confirmDelete": false,
+     // Internal terminal
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    // vscode Suggested expansion
+    "extensions.ignoreRecommendations": false,
+    // extension update
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    // eslint 自动识别工作区
+    "eslint.workingDirectories": [{ "mode": "auto" }],
+    // liveserver 关闭开启服务提示
+    "liveServer.settings.donotShowInfoMsg": true,
+    
+    // "workbench.colorCustomizations": {
+    //     "editorBracketHighlight.foreground1": "#FF6B6B",  // 鲜艳的红色
+    //     "editorBracketPairGuide.activeBackground1": "#FF6B6B7f",
+    //     "editorBracketHighlight.foreground2": "#4ECDC4",  // 清新的青绿色
+    //     "editorBracketPairGuide.activeBackground2": "#4ECDC47f",
+    //     "editorBracketHighlight.foreground3": "#45B7D1",  // 明亮的蓝色
+    //     "editorBracketPairGuide.activeBackground3": "#45B7D17f",
+    //     "editorBracketHighlight.foreground4": "#FDCB6E",  // 明黄色
+    //     "editorBracketPairGuide.activeBackground4": "#FDCB6E7f",
+    //     "editorBracketHighlight.foreground5": "#6C5CE7",  // 紫色
+    //     "editorBracketPairGuide.activeBackground5": "#6C5CE77f",
+    //     "editorBracketHighlight.foreground6": "#FF8A5B",  // 橙色
+    //     "editorBracketPairGuide.activeBackground6": "#FF8A5B7f",
+    //     "editorBracketHighlight.unexpectedBracket.foreground": "#FF0000",
+    // }
+
+    // 开启原生括号着色
+    "editor.bracketPairColorization.enabled": true,
+    // 开启 active 时的代码块边缘导轨线着色（和 Bracket Pair Colorizer 行为一致）
+    "editor.guides.bracketPairs": "active",
+
+    // inline complete
+    "editor.inlineSuggest.enabled": true,
+
+}
